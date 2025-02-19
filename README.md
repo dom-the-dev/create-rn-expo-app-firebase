@@ -113,3 +113,13 @@ https://react-native-google-signin.github.io/docs/install
 ### Get your web client ID from console.cloud.google.com
 > go to console.cloud.google.com select your project
 > firebase already created your client ID
+
+
+## Start App on ios device
+#### Start Server
+> npm run start
+
+#### Build the app with xcode on your device
+> cd ios
+
+> open xxx.xcworkspace

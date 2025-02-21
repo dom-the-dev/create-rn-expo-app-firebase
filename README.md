@@ -98,13 +98,16 @@ https://react-native-google-signin.github.io/docs/install
 
 ```json
 {
-...
+  ...
     "plugins": [
-      ...
+      [
         "@react-native-google-signin/google-signin",
-      ...
-    ],
-...
+        {
+          "iosUrlScheme": "com.googleusercontent.apps._some_id_here_"
+        }
+      ]
+    ]
+  ...
 }
 ```
 
